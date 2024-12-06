@@ -474,6 +474,8 @@ span{
 .buttons{
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; 
+    padding: 10px;
 }
 .buttons .tabs{
     background-color: var(--main-color);
@@ -668,6 +670,8 @@ label{
     
     .buttons{
         grid-template-columns: 35% 35% 35%;
+        gap: 0;
+        padding: 0;
     }
     .buttons .tabs{
         padding: 10px 40px;
